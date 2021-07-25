@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - Stack game with Three.js and Cannon.js</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <div id="instructions">
+      <div class="content">
+        <p>Stack Game</p>
+        <p>
+          Click, tap or press Space when a block is above the stack. Can you
+          reach the blue color blocks? 
+        </p>
+        <p>Click, tap or press Space to start game</p>
+      </div>
+    </div>
+    <div id="results">
+      <h1>GAME OVER</h1>
+      <button id="restart">
+        <h1>RESTART</h1>
+      </button>
+    </div>
+    <div id="score">0</div>
+
+    <!-- partial -->
+    <script src="three.js"></script>
+    <script src="cannon.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
